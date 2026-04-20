@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.tmp
+*.synctex.gz
+
+# Large experimental outputs
+*.npz
+*.pt
+*.pth
+*.safetensors
+runs/
+wandb/
+outputs/

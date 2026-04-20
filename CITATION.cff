@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "SOS — Structural Separation & Substrate Scaling"
+authors:
+  - family-names: Culotta
+    given-names: Daniel
+    email: daniel.culotta@gmail.com
+date-released: 2026-04-20
+url: "https://github.com/Dan23RR/sos-paradigm"
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: Culotta
+      given-names: Daniel
+  title: "Structural Separation Theorems for Finite-Group Representations"
+  year: 2026
+  doi: "10.5281/zenodo.19642604"
+  url: "https://doi.org/10.5281/zenodo.19642604"
