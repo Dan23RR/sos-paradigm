@@ -1,6 +1,23 @@
 # SOS — Structural Separation & Substrate Scaling
 
-Two technical reports on the algebraic limits of additive embeddings for finite-group reasoning, and on the scaling laws of toroidal HRR substrates as external verifiers for LLM-compiled symbolic computation.
+> Can a language model truly *reason* with symbols — or is it 
+> pattern-matching that happens to look like reasoning?
+
+This research gives a formal answer. Standard transformers **cannot 
+provably compose symbolic operations**: errors accumulate at every 
+step, and the model cannot tell you why it's wrong. This isn't a 
+training problem or a scale problem — it's structural.
+
+The fix: a small external component called a **toroidal substrate** 
+that sits beside the LLM, handles the symbolic computation exactly, 
+and returns a verified result. Think of it as a calculator for 
+logic — interpretable, provable, and sized by an explicit design rule.
+
+Two papers. Independent research. April 2026.
+
+*For the full technical treatment, see the Papers and Thesis sections below.*
+
+---
 
 Daniel Culotta · Independent research · 2026
 
